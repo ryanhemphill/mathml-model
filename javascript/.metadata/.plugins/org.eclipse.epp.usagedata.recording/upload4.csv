@@ -1,0 +1,201 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.wst.html.core,1.1.404.v201101190004,"org.eclipse.wst.html.core",1308162376913
+started,bundle,org.eclipse.wst.html.ui,1.0.504.v201101122108,"org.eclipse.wst.html.ui",1308162376914
+started,bundle,org.eclipse.wst.internet.cache,1.0.400.v201004280700,"org.eclipse.wst.internet.cache",1308162376915
+started,bundle,org.eclipse.wst.jsdt.core,1.1.4.v201102102045,"org.eclipse.wst.jsdt.core",1308162376917
+started,bundle,org.eclipse.wst.jsdt.manipulation,1.0.200.v201004150600,"org.eclipse.wst.jsdt.manipulation",1308162376918
+started,bundle,org.eclipse.wst.jsdt.ui,1.1.4.v201102160540,"org.eclipse.wst.jsdt.ui",1308162376918
+started,bundle,org.eclipse.wst.jsdt.web.core,1.0.304.v201102160550,"org.eclipse.wst.jsdt.web.core",1308162376920
+started,bundle,org.eclipse.wst.jsdt.web.ui,1.0.304.v201012160349,"org.eclipse.wst.jsdt.web.ui",1308162376921
+started,bundle,org.eclipse.wst.sse.core,1.1.504.v201102160550,"org.eclipse.wst.sse.core",1308162376922
+started,bundle,org.eclipse.wst.sse.ui,1.2.3.v201102102045,"org.eclipse.wst.sse.ui",1308162376925
+started,bundle,org.eclipse.wst.validation,1.2.201.v201101270100,"org.eclipse.wst.validation",1308162376927
+started,bundle,org.eclipse.wst.xml.core,1.1.503.v201102102045,"org.eclipse.wst.xml.core",1308162376928
+started,bundle,org.eclipse.wst.xml.ui,1.1.103.v201101122108,"org.eclipse.wst.xml.ui",1308162376930
+started,bundle,org.eclipse.wst.xsl.core,1.1.0.v201004290328,"org.eclipse.wst.xsl.core",1308162376931
+started,bundle,org.eclipse.wst.xsl.exslt.core,1.0.0.v201005240426,"org.eclipse.wst.xsl.exslt.core",1308162376933
+os,sysinfo,,,"win32",1308162376941
+arch,sysinfo,,,"x86",1308162376941
+ws,sysinfo,,,"win32",1308162376941
+locale,sysinfo,,,"en_US",1308162376941
+processors,sysinfo,,,"2",1308162376941
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1308162376941
+java.runtime.version,sysinfo,,,"1.6.0_15-b03",1308162376941
+java.specification.name,sysinfo,,,"Java Platform API Specification",1308162376941
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1308162376941
+java.specification.version,sysinfo,,,"1.6",1308162376941
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1308162376941
+java.version,sysinfo,,,"1.6.0_15",1308162376941
+java.vm.info,sysinfo,,,"mixed mode",1308162376941
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1308162376941
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1308162376941
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1308162376941
+java.vm.specification.version,sysinfo,,,"1.0",1308162376941
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1308162376941
+java.vm.version,sysinfo,,,"14.1-b02",1308162376941
+opened,editor,org.eclipse.wst.html.ui,1.0.504.v201101122108,"org.eclipse.wst.html.core.htmlsource.source",1308162477941
+activated,editor,org.eclipse.wst.html.ui,1.0.504.v201101122108,"org.eclipse.wst.html.core.htmlsource.source",1308162478130
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1308162514601
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1308162689128
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1308162704695
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1308162708463
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1308162708473
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1308162708627
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1308162708645
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1308162708784
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1308162735503
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.4.v201102160540,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1308162740390
+activated,editor,org.eclipse.wst.html.ui,1.0.504.v201101122108,"org.eclipse.wst.html.core.htmlsource.source",1308162745137
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.copy",1308162762113
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.paste",1308162763526
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.delete",1308162773583
+activated,perspective,org.eclipse.wst.jsdt.ui,,"org.eclipse.wst.jsdt.ui.JavaPerspective",1308163252566
+started,bundle,org.eclipse.osgi,3.6.2.R36x_v20110210,"org.eclipse.osgi",1308163252569
+started,bundle,org.eclipse.equinox.simpleconfigurator,1.0.200.v20100503,"org.eclipse.equinox.simpleconfigurator",1308163252576
+started,bundle,com.ibm.icu,4.2.1.v20100412,"com.ibm.icu",1308163252578
+started,bundle,org.eclipse.compare.core,3.5.101.R36x_v20100929-0800,"org.eclipse.compare.core",1308163252578
+started,bundle,org.eclipse.core.contenttype,3.4.100.v20100505-1235,"org.eclipse.core.contenttype",1308163252579
+started,bundle,org.eclipse.core.databinding.observable,1.3.0.I20100601-0800,"org.eclipse.core.databinding.observable",1308163252581
+started,bundle,org.eclipse.core.expressions,3.4.200.v20100505,"org.eclipse.core.expressions",1308163252582
+started,bundle,org.eclipse.core.filebuffers,3.5.100.v20100520-0800,"org.eclipse.core.filebuffers",1308163252583
+started,bundle,org.eclipse.core.filesystem,1.3.1.R36x_v20100727-0745,"org.eclipse.core.filesystem",1308163252583
+started,bundle,org.eclipse.core.jobs,3.5.1.R36x_v20100824,"org.eclipse.core.jobs",1308163252584
+started,bundle,org.eclipse.core.net,1.2.100.I20100511-0800,"org.eclipse.core.net",1308163252585
+started,bundle,org.eclipse.core.resources,3.6.1.R36x_v20110131-1630,"org.eclipse.core.resources",1308163252587
+started,bundle,org.eclipse.core.runtime,3.6.0.v20100505,"org.eclipse.core.runtime",1308163252587
+started,bundle,org.eclipse.core.runtime.compatibility,3.2.100.v20100505,"org.eclipse.core.runtime.compatibility",1308163252596
+started,bundle,org.eclipse.core.runtime.compatibility.auth,3.2.200.v20100517,"org.eclipse.core.runtime.compatibility.auth",1308163252598
+started,bundle,org.eclipse.core.variables,3.2.400.v20100505,"org.eclipse.core.variables",1308163252600
+started,bundle,org.eclipse.debug.core,3.6.0.v20100519,"org.eclipse.debug.core",1308163252601
+started,bundle,org.eclipse.debug.ui,3.6.3.v20101201_r362,"org.eclipse.debug.ui",1308163252604
+started,bundle,org.eclipse.emf.common,2.6.0.v20100914-1218,"org.eclipse.emf.common",1308163252605
+started,bundle,org.eclipse.emf.ecore,2.6.1.v20100914-1218,"org.eclipse.emf.ecore",1308163252607
+started,bundle,org.eclipse.emf.ecore.xmi,2.5.0.v20100521-1846,"org.eclipse.emf.ecore.xmi",1308163252615
+started,bundle,org.eclipse.epp.usagedata.gathering,1.3.1.R201102081640,"org.eclipse.epp.usagedata.gathering",1308163252616
+started,bundle,org.eclipse.epp.usagedata.recording,1.3.1.R201102081640,"org.eclipse.epp.usagedata.recording",1308163252618
+started,bundle,org.eclipse.equinox.app,1.3.1.R36x_v20100803,"org.eclipse.equinox.app",1308163252619
+started,bundle,org.eclipse.equinox.common,3.6.0.v20100503,"org.eclipse.equinox.common",1308163252620
+started,bundle,org.eclipse.equinox.ds,1.2.1.R36x_v20100803,"org.eclipse.equinox.ds",1308163252621
+started,bundle,org.eclipse.equinox.event,1.2.0.v20100503,"org.eclipse.equinox.event",1308163252622
+started,bundle,org.eclipse.equinox.p2.core,2.0.3.R36x_v20110111,"org.eclipse.equinox.p2.core",1308163252623
+started,bundle,org.eclipse.equinox.p2.directorywatcher,1.0.203.R36x_v20101220,"org.eclipse.equinox.p2.directorywatcher",1308163252631
+started,bundle,org.eclipse.equinox.p2.engine,2.0.1.R36x_v20110201,"org.eclipse.equinox.p2.engine",1308163252632
+started,bundle,org.eclipse.equinox.p2.metadata,2.0.1.R36x_v20101202,"org.eclipse.equinox.p2.metadata",1308163252634
+started,bundle,org.eclipse.equinox.p2.metadata.repository,1.1.0.v20100513,"org.eclipse.equinox.p2.metadata.repository",1308163252635
+started,bundle,org.eclipse.equinox.p2.operations,2.0.0.v20100510,"org.eclipse.equinox.p2.operations",1308163252636
+started,bundle,org.eclipse.equinox.p2.reconciler.dropins,1.1.2.R36x_v20110114,"org.eclipse.equinox.p2.reconciler.dropins",1308163252638
+started,bundle,org.eclipse.equinox.p2.repository,2.0.2.R36x_v20110111-1500,"org.eclipse.equinox.p2.repository",1308163252639
+started,bundle,org.eclipse.equinox.p2.ui.sdk.scheduler,1.0.0.v20100507-1815,"org.eclipse.equinox.p2.ui.sdk.scheduler",1308163252645
+started,bundle,org.eclipse.equinox.p2.updatechecker,1.1.101.R36x_v20100823,"org.eclipse.equinox.p2.updatechecker",1308163252646
+started,bundle,org.eclipse.equinox.preferences,3.3.0.v20100503,"org.eclipse.equinox.preferences",1308163252647
+started,bundle,org.eclipse.equinox.registry,3.5.0.v20100503,"org.eclipse.equinox.registry",1308163252648
+started,bundle,org.eclipse.equinox.security,1.0.200.v20100503,"org.eclipse.equinox.security",1308163252649
+started,bundle,org.eclipse.equinox.util,1.0.200.v20100503,"org.eclipse.equinox.util",1308163252651
+started,bundle,org.eclipse.help,3.5.0.v20100524,"org.eclipse.help",1308163252652
+started,bundle,org.eclipse.jdt.core,3.6.2.v_A76_R36x,"org.eclipse.jdt.core",1308163252660
+started,bundle,org.eclipse.jdt.core.manipulation,1.3.0.v20100520-0800,"org.eclipse.jdt.core.manipulation",1308163252661
+started,bundle,org.eclipse.jdt.ui,3.6.2.r362_v20110203,"org.eclipse.jdt.ui",1308163252675
+started,bundle,org.eclipse.jem.util,2.1.3.v201012070000,"org.eclipse.jem.util",1308163252677
+started,bundle,org.eclipse.jface,3.6.2.M20110210-1200,"org.eclipse.jface",1308163252678
+started,bundle,org.eclipse.team.core,3.5.101.R36x_v20110203-1036,"org.eclipse.team.core",1308163252681
+started,bundle,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui",1308163252683
+started,bundle,org.eclipse.ui.editors,3.6.1.r361_v20100825-0800,"org.eclipse.ui.editors",1308163252683
+started,bundle,org.eclipse.ui.ide,3.6.2.M20101201-0800,"org.eclipse.ui.ide",1308163252692
+started,bundle,org.eclipse.ui.navigator,3.5.0.I20100601-0800,"org.eclipse.ui.navigator",1308163252693
+started,bundle,org.eclipse.ui.navigator.resources,3.4.202.M20101124-0800,"org.eclipse.ui.navigator.resources",1308163252695
+started,bundle,org.eclipse.ui.net,1.2.100.I20100505-1245,"org.eclipse.ui.net",1308163252695
+started,bundle,org.eclipse.ui.views,3.5.1.M20110202-0800,"org.eclipse.ui.views",1308163252696
+started,bundle,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"org.eclipse.ui.workbench",1308163252698
+started,bundle,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.workbench.texteditor",1308163252705
+started,bundle,org.eclipse.update.configurator,3.3.100.v20100512,"org.eclipse.update.configurator",1308163252706
+started,bundle,org.eclipse.update.core,3.2.402.R36x_v20100629,"org.eclipse.update.core",1308163252707
+started,bundle,org.eclipse.update.scheduler,3.2.300.v20100512,"org.eclipse.update.scheduler",1308163252708
+started,bundle,org.eclipse.wst.common.core,1.2.0.v200908252030,"org.eclipse.wst.common.core",1308163252709
+started,bundle,org.eclipse.wst.common.emf,1.2.3.v201012100400,"org.eclipse.wst.common.emf",1308163252711
+started,bundle,org.eclipse.wst.common.emfworkbench.integration,1.2.3.v201012020600,"org.eclipse.wst.common.emfworkbench.integration",1308163252718
+started,bundle,org.eclipse.wst.common.frameworks,1.2.0.v201003040800,"org.eclipse.wst.common.frameworks",1308163252719
+started,bundle,org.eclipse.wst.common.modulecore,1.2.5.v201101270100,"org.eclipse.wst.common.modulecore",1308163252721
+started,bundle,org.eclipse.wst.common.project.facet.core,1.4.102.v201008170019,"org.eclipse.wst.common.project.facet.core",1308163252723
+started,bundle,org.eclipse.wst.common.uriresolver,1.1.401.v201004280700,"org.eclipse.wst.common.uriresolver",1308163252724
+started,bundle,org.eclipse.wst.css.core,1.1.402.v201102031915,"org.eclipse.wst.css.core",1308163252726
+started,bundle,org.eclipse.wst.css.ui,1.0.502.v201101122002,"org.eclipse.wst.css.ui",1308163252727
+started,bundle,org.eclipse.wst.dtd.core,1.1.401.v201101122255,"org.eclipse.wst.dtd.core",1308163252729
+started,bundle,org.eclipse.wst.dtd.ui,1.0.500.v201004290328,"org.eclipse.wst.dtd.ui",1308163252731
+started,bundle,org.eclipse.wst.html.core,1.1.404.v201101190004,"org.eclipse.wst.html.core",1308163252738
+started,bundle,org.eclipse.wst.html.ui,1.0.504.v201101122108,"org.eclipse.wst.html.ui",1308163252739
+started,bundle,org.eclipse.wst.internet.cache,1.0.400.v201004280700,"org.eclipse.wst.internet.cache",1308163252742
+started,bundle,org.eclipse.wst.jsdt.core,1.1.4.v201102102045,"org.eclipse.wst.jsdt.core",1308163252744
+started,bundle,org.eclipse.wst.jsdt.manipulation,1.0.200.v201004150600,"org.eclipse.wst.jsdt.manipulation",1308163252745
+started,bundle,org.eclipse.wst.jsdt.ui,1.1.4.v201102160540,"org.eclipse.wst.jsdt.ui",1308163252755
+started,bundle,org.eclipse.wst.jsdt.web.core,1.0.304.v201102160550,"org.eclipse.wst.jsdt.web.core",1308163252756
+started,bundle,org.eclipse.wst.jsdt.web.ui,1.0.304.v201012160349,"org.eclipse.wst.jsdt.web.ui",1308163252758
+started,bundle,org.eclipse.wst.server.core,1.1.206.v20110110,"org.eclipse.wst.server.core",1308163252759
+started,bundle,org.eclipse.wst.server.ui,1.1.207.v20110119,"org.eclipse.wst.server.ui",1308163252766
+started,bundle,org.eclipse.wst.sse.core,1.1.504.v201102160550,"org.eclipse.wst.sse.core",1308163252767
+started,bundle,org.eclipse.wst.sse.ui,1.2.3.v201102102045,"org.eclipse.wst.sse.ui",1308163252769
+started,bundle,org.eclipse.wst.validation,1.2.201.v201101270100,"org.eclipse.wst.validation",1308163252770
+started,bundle,org.eclipse.wst.xml.core,1.1.503.v201102102045,"org.eclipse.wst.xml.core",1308163252771
+started,bundle,org.eclipse.wst.xml.ui,1.1.103.v201101122108,"org.eclipse.wst.xml.ui",1308163252778
+started,bundle,org.eclipse.wst.xsl.core,1.1.0.v201004290328,"org.eclipse.wst.xsl.core",1308163252780
+started,bundle,org.eclipse.wst.xsl.exslt.core,1.0.0.v201005240426,"org.eclipse.wst.xsl.exslt.core",1308163252782
+os,sysinfo,,,"win32",1308163252787
+arch,sysinfo,,,"x86",1308163252787
+ws,sysinfo,,,"win32",1308163252787
+locale,sysinfo,,,"en_US",1308163252787
+processors,sysinfo,,,"2",1308163252787
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1308163252787
+java.runtime.version,sysinfo,,,"1.6.0_15-b03",1308163252787
+java.specification.name,sysinfo,,,"Java Platform API Specification",1308163252787
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1308163252787
+java.specification.version,sysinfo,,,"1.6",1308163252787
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1308163252787
+java.version,sysinfo,,,"1.6.0_15",1308163252787
+java.vm.info,sysinfo,,,"mixed mode",1308163252787
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1308163252787
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1308163252787
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1308163252787
+java.vm.specification.version,sysinfo,,,"1.0",1308163252787
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1308163252787
+java.vm.version,sysinfo,,,"14.1-b02",1308163252787
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1308163269587
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1308163293871
+executed,command,org.eclipse.ui.ide,3.6.2.M20101201-0800,"org.eclipse.ui.edit.text.openLocalFile",1308163293983
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1308163300793
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1308163408812
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1308163415114
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1308163428769
+opened,editor,org.eclipse.wst.html.ui,1.0.504.v201101122108,"org.eclipse.wst.html.core.htmlsource.source",1308163429087
+activated,editor,org.eclipse.wst.html.ui,1.0.504.v201101122108,"org.eclipse.wst.html.core.htmlsource.source",1308163429186
+executed,command,org.eclipse.ui.ide,3.6.2.M20101201-0800,"org.eclipse.ui.edit.text.openLocalFile",1308163429187
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1308163432625
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1308163455350
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.saveAs",1308163455991
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1308163481881
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.edit.delete",1308163491486
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1308163498442
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1308163507748
+started,bundle,org.eclipse.ltk.core.refactoring,3.5.101.r362_v20101117-0800,"org.eclipse.ltk.core.refactoring",1308163508963
+started,bundle,org.eclipse.ltk.ui.refactoring,3.5.0.v20100526-0800,"org.eclipse.ltk.ui.refactoring",1308163509175
+opened,editor,org.eclipse.wst.jsdt.ui,1.1.4.v201102160540,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1308163509324
+started,bundle,org.eclipse.team.ui,3.5.102.R36x_v20110203-1036,"org.eclipse.team.ui",1308163509887
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.4.v201102160540,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1308163510003
+executed,command,org.eclipse.ui.ide,3.6.2.M20101201-0800,"org.eclipse.ui.edit.text.openLocalFile",1308163510052
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1308163517735
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1308163532848
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.saveAs",1308163533374
+activated,editor,org.eclipse.wst.html.ui,1.0.504.v201101122108,"org.eclipse.wst.html.core.htmlsource.source",1308163545286
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.4.v201102160540,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1308163554902
+activated,editor,org.eclipse.wst.html.ui,1.0.504.v201101122108,"org.eclipse.wst.html.core.htmlsource.source",1308163568478
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1308163571302
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1308163574032
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1308163610962
+opened,editor,org.eclipse.wst.jsdt.ui,1.1.4.v201102160540,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1308163611186
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.4.v201102160540,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1308163611331
+executed,command,org.eclipse.ui.ide,3.6.2.M20101201-0800,"org.eclipse.ui.edit.text.openLocalFile",1308163611382
+activated,editor,org.eclipse.wst.html.ui,1.0.504.v201101122108,"org.eclipse.wst.html.core.htmlsource.source",1308163621257
+closed,editor,org.eclipse.wst.jsdt.ui,1.1.4.v201102160540,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1308163621257
+activated,editor,org.eclipse.wst.jsdt.ui,1.1.4.v201102160540,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1308163627284
+error,log,,,"Exception occurred during problem detection:\r\n----------------------------------- SOURCE BEGIN -------------------------------------\r\nfunction init()\r\n{\r\n\trunAccessKeyTest();\r\n}\r\n\r\nfunction runAccessKeyTest()\r\n{\r\n\t$('[tabindex]').keydown(function(event)\r\n\t{\r\n\t\tvar _type = ""keydown"";\r\n\t\tvar _keyCode = event.which;\r\n//\t\tvar _shiftKey = event.shiftKey;\r\n//\t\tvar _metaKey = event.metaKey;\r\n//\t\tvar _ctrlKey = event.ctrlKey;\r\n//\t\tvar _altKey = event.altKey;\r\n\t\t//document.write(""keyCode = "" + keyCode +  "", shiftKey = "" + shiftKey + "", metaKey = "" + metaKey + "", ctrlKey = "" + ctrlKey)\r\n\t\t\r\n\t\tcaptureDisplay(_type, _keyCode);\r\n\t\t\r\n\t});\r\n\t\r\n\t$('[tabindex]').keyup(function(event)\r\n\t{\r\n\t\tvar _type = ""keyup"";\r\n\t\tvar _keyCode = event.which;\r\n//\t\tvar _shiftKey = event.shiftKey;\r\n//\t\tvar _metaKey = event.metaKey;\r\n//\t\tvar _ctrlKey = event.ctrlKey;\r\n//\t\tvar _altKey = event.altKey;\r\n\t\t//document.write(""keyCode = "" + keyCode +  "", shiftKey = "" + shiftKey + "", metaKey = "" + metaKey + "", ctrlKey = "" + ctrlKey)\r\n\t\tcaptureDisplay(_type, _keyCode);\r\n\t});\r\n}\r\n\r\n\r\nfunction captureDisplay(_type, _keyCode)\r\n{\r\n\tif(_type == ""keyup"")\r\n\t{\r\n\t\t//$('#notifier').text(""This is the test."");\r\n\t\t$('#focus2').focus();\r\n\t\t$('#focus2').addClass('keypressUP');\r\n\t\t$('#focus1').removeClass();\r\n\t\t\r\n\t\tif(_keyCode == 90) /* Shift */\r\n\t\t{\r\n\t\t\t$('#shift').addClass('keypressUP');\r\n\t\t\t$('#shift').removeClass('keypressDOWN');\r\n\t\t\t\r\n\t\t\tif($('#cmd').hasClass('keypressDOWN') == true || $('#wincmd').hasClass('keypressDOWN') == true)\r\n\t\t\t{\r\n\t\t\t\t$('#notifier').text(""Meta Key UP."");\r\n\t\t\t\t$('#politenotifier').text(""This is some polite text."");\r\n\t\t\t}\r\n\t\t\t\r\n\t\t}\r\n\t\tif(_keyCode == 224) /* Command (Mac) */\r\n\t\t{\r\n\t\t\t$('#cmd').addClass('keypressUP');\r\n\t\t\t$('#cmd').removeClass('keypressDOWN');\r\n\t\t\t\r\n\t\t\tif($('#shift').hasClass('keypressDOWN') == true)\r\n\t\t\t{\r\n\t\t\t\t$('#notifier').text(""Meta Key UP."");\r\n\t\t\t\t$('#politenotifier').text(""This is some polite text."");\r\n\t\t\t}\r\n\t\t\t\r\n\t\t}\r\n\t\tif(_keyCode == 91) /* Command (Windows) */\r\n\t\t{ \r\n\t\t\t$('#wincmd').addClass('keypressUP');\r\n\t\t\t$('#wincmd').removeClass('keypressDOWN');\r\n\t\t\t\r\n\t\t\tif($('#shift').hasClass('keypressDOWN') == true)\r\n\t\t\t{\r\n\t\t\t\t$('#notifier').text(""Meta Key UP."");\r\n\t\t\t\t$('#politenotifier').text(""This is some polite text."");\r\n\t\t\t}\r\n\t\t\t\r\n\t\t}\r\n\t\t\r\n\t\t\r\n\t\t// add arrow keys\r\n\t\tif(_keyCode == 37)\r\n\t\t{\r\n\t\t\t$('#left').addClass('keypressUP');\r\n\t\t\t$('#left').removeClass('keypressDOWN');\r\n\t\t\t\t\t\t\r\n\t\t\t$('#notifier').text(""Left Key UP."");\r\n\t\t\t$('#politenotifier').text(""This is some polite text."");\r\n\t\t\t\r\n\t\t}\r\n\t\tif(_keyCode == 38)\r\n\t\t{\r\n\t\t\t$('#up').addClass('keypressUP');\r\n\t\t\t$('#up').removeClass('keypressDOWN');\r\n\t\t\t\r\n\t\t\t$('#notifier').text(""Up Key UP."");\r\n\t\t\t$('#politenotifier').text(""This is some polite text."");\r\n\t\t}\r\n\t\tif(_keyCode == 39)\r\n\t\t{\r\n\t\t\t$('#right').addClass('keypressUP');\r\n\t\t\t$('#right').removeClass('keypressDOWN');\r\n\t\t\t\r\n\t\t\t$('#notifier').text(""Right Key UP."");\r\n\t\t\t$('#politenotifier').text(""This is some polite text."");\r\n\t\t}\r\n\t\tif(_keyCode == 40)\r\n\t\t{\r\n\t\t\t$('#down').addClass('keypressUP');\r\n\t\t\t$('#down').removeClass('keypressDOWN');\r\n\t\t\t\r\n\t\t\t$('#notifier').text(""Down Key UP."");\r\n\t\t\t$('#politenotifier').text(""This is some polite text."");\r\n\t\t}\r\n\r\n\t}\r\n\telse if(_type == ""keydown"")\r\n\t{\r\n\t\t//$('#notifier').text(""This is the test."");\r\n\t\t$('#focus1').focus();\r\n\t\t$('#focus1').addClass('keypressDOWN');\r\n\t\t$('#focus2').removeClass();\r\n\t\t\r\n\t\tif(_keyCode == 16) /* Shift */\r\n\t\t{\r\n\t\t\t$('#shift').removeClass('keypressUP');\r\n\t\t\t$('#shift').addClass('keypressDOWN');\r\n\t\t\t\r\n\t\t\tif($('#cmd').hasClass('keypressDOWN') == true || $('#wincmd').hasClass('keypressDOWN') == true)\r\n\t\t\t{\r\n\t\t\t\t$('#notifier').text(""Meta Key DOWN."");\r\n\t\t\t\t$('#politenotifier').text(""This is some polite text."");\r\n\t\t\t}\r\n\t\t}\r\n\t\tif(_keyCode == 91) /* Windows Command Key */\r\n\t\t{\r\n\t\t\t$('#wincmd').removeClass('keypressUP');\r\n\t\t\t$('#wincmd').addClass('keypressDOWN');\r\n\t\t\t\r\n\t\t\tif($('#shift').hasClass('keypressDOWN') == true)\r\n\t\t\t{\r\n\t\t\t\t$('#notifier').text(""Meta Key DOWN."");\r\n\t\t\t\t$('#politenotifier').text(""This is some polite text."");\r\n\t\t\t}\r\n\t\t}\r\n\t\t\r\n\t\tif(_keyCode == 224) /* Apple Command Key */\r\n\t\t{\r\n\t\t\t$('#cmd').removeClass('keypressUP');\r\n\t\t\t$('#cmd').addClass('keypressDOWN');\r\n\t\t\t\r\n\t\t\tif($('#shift').hasClass('keypressDOWN') == true)\r\n\t\t\t{\r\n\t\t\t\t$('#notifier').text(""Meta Key DOWN."");\r\n\t\t\t\t$('#politenotifier').text(""This is some polite text."");\r\n\t\t\t}\r\n\t\t}\r\n\t\t// add arrow keys\r\n\t\tif(_keyCode == 37)\r\n\t\t{\r\n\t\t\t$('#left').removeClass('keypressUP');\r\n\t\t\t$('#left').addClass('keypressDOWN');\r\n\t\t\t\r\n\t\t\t$('#notifier').text(""Left Key DOWN."");\r\n\t\t\t$('#politenotifier').text(""This is some polite text."");\r\n\t\t}\r\n\t\tif(_keyCode == 38)\r\n\t\t{\r\n\t\t\t$('#up').removeClass('keypressUP');\r\n\t\t\t$('#up').addClass('keypressDOWN');\r\n\t\t\t\r\n\t\t\t$('#notifier').text(""Up Key DOWN."");\r\n\t\t\t$('#politenotifier').text(""This is some polite text."");\r\n\t\t}\r\n\t\tif(_keyCode == 39)\r\n\t\t{\r\n\t\t\t$('#right').removeClass('keypressUP');\r\n\t\t\t$('#right').addClass('keypressDOWN');\r\n\t\t\t\r\n\t\t\t$('#notifier').text(""Right Key DOWN."");\r\n\t\t\t$('#politenotifier').text(""This is some polite text."");\r\n\t\t}\r\n\t\tif(_keyCode == 40)\r\n\t\t{\r\n\t\t\t$('#down').removeClass('keypressUP');\r\n\t\t\t$('#down').addClass('keypressDOWN');\r\n\t\t\t\r\n\t\t\t$('#notifier').text(""Down Key DOWN."");\r\n\t\t\t$('#politenotifier').text(""This is some polite text."");\r\n\t\t}\r\n\t\t\r\n\t\t\r\n\r\n\t\t\r\n\t}\r\n}\r\n\r\n\r\ninit();\r\n----------------------------------- SOURCE END -------------------------------------",1308163627824
+error,log,,,"Error in JSDT Core during reconcile",1308163627828
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.jsdt.ui"".",1308163627847
+error,log,,,"Error in JSDT Core during AST creation",1308163627849

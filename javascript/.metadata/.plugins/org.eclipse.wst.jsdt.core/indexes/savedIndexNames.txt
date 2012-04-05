@@ -1,0 +1,2 @@
+INDEX VERSION 1.122+C:\Users\Ryan\Desktop\Focus Management\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+453930595.index

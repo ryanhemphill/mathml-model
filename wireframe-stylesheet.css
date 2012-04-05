@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.test-button {
+	background-image:url(button-background-image.gif);
+	background-color: #BBDBEE;
+	border: 1px solid white;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	padding:3px;
+
+}
+
+.notab .test-button {
+	background-image:url(button-background-image-notab.gif);
+	
+}
+
+.notab.focus .test-button {
+	border-color:#999;
+}
+
+.button-container {
+	border: 1px solid #4A95C9;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-o-border-radius: 7px;
+
+}
+
+/* 
+   Note: 
+	'.button-container.selected' needs to be above the other button-container 
+	 selectors for proper cascade. 
+*/
+.button-container.selected.notab, .button-container.selected  {
+	border: 2px dashed #099;
+}
+
+.button-container.notab {
+	border: 1px dashed #999;
+}
+
+.button-container.focus {
+	border: 3px solid #4A95C9;	
+}
+
+.button-container.focus.notab {
+	border: 2px dashed #4A95C9;
+}
+
+
+
+
+input.catch {
+	width: 170px;
+	height: 22px;
+	background-color: #FCFCFC;
+	color: #000000;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-bottom:4px;
+	font-size:18px;
+	
+	border-top: 1px solid #848484;
+	border-left: 1px solid #848484;
+	border-right: 1px solid #D7D7D7;
+	border-bottom: 1px solid #D7D7D7;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-o-border-radius: 2px;	
+}
+
+.focus input.catch {
+	background-color: #DDF2FF;
+	border: 2px solid #848484;
+	width: 169px;
+}
+
+.catch-container {
+	background-image:url(button-background-image-notab.gif);
+	border: 1px solid #999;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;	
+	width: 182px;
+	padding-right: 2px;
+}
+
+.catch-container.focus {
+	border: 1px dashed #666;
+	padding-right: 2px;
+	
+}

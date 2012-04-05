@@ -1,0 +1,21 @@
+what,kind,bundleId,bundleVersion,description,time
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1308326747827
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1308326747827
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1308326747827
+java.vm.specification.version,sysinfo,,,"1.0",1308326747827
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1308326747827
+java.vm.version,sysinfo,,,"14.1-b02",1308326747827
+started,bundle,org.eclipse.wst.server.core,1.1.206.v20110110,"org.eclipse.wst.server.core",1308326759415
+started,bundle,org.eclipse.wst.server.ui,1.1.207.v20110119,"org.eclipse.wst.server.ui",1308326759436
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1308326761033
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1308326761046
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1308326761157
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1308326853608
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1308326853963
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1308326854085
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1308326855342
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1308326858458
+closed,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1308326858678
+stopped,bundle,org.eclipse.compare.win32,1.0.101.R36x_v20101103-0618,"org.eclipse.compare.win32",1308326859846
+stopped,bundle,org.eclipse.equinox.p2.ui.sdk,1.0.100.v20100513,"org.eclipse.equinox.p2.ui.sdk",1308326859884
+stopped,bundle,org.eclipse.wst.xsl.jaxp.debug.ui,1.0.100.v201004290328,"org.eclipse.wst.xsl.jaxp.debug.ui",1308326859950
