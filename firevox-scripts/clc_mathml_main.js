@@ -49,18 +49,19 @@ var CLC_MathML_Begin_Msg = " Begin ";
 var CLC_MathML_Fraction_Msg = " Fraction ";
 var CLC_MathML_Over_Msg = " Over ";
 var CLC_MathML_End_Msg = " End ";
-var CLC_MathML_Radical_Msg = " Radical "
+var CLC_MathML_Radical_Msg = " Radical ";
 var CLC_MathML_Sub_Msg = " Sub ";
 var CLC_MathML_Sup_Msg = " Soup ";
 var CLC_MathML_Base_Msg = " Base ";
 var CLC_MathML_Under_Msg = " Under ";
 var CLC_MathML_Script_Msg = " Script ";
 
-var CLC_MathML_Braille_Begin_Msg = " Begin ";
-var CLC_MathML_Braille_Fraction_Msg = " Fraction ";
-var CLC_MathML_Braille_Over_Msg = " Over ";
-var CLC_MathML_Braille_End_Msg = " End ";
-var CLC_MathML_Braille_Radical_Msg = " Radical "
+var CLC_MathML_Braille_Complexity_Msg = ",";
+var CLC_MathML_Braille_Begin_Fraction_Msg = "?";
+var CLC_MathML_Braille_Over_Msg = "/";
+var CLC_MathML_Braille_End_Fraction_Msg = "#";
+var CLC_MathML_Braille_Begin_Radical_Msg = ">";
+var CLC_MathML_Braille_End_Radical_Msg = "]";
 var CLC_MathML_Braille_Sub_Msg = ";";
 var CLC_MathML_Braille_Sup_Msg = "^";
 var CLC_MathML_Braille_Base_Msg = "\"";
@@ -120,8 +121,15 @@ function CLC_MathML_ProcessMathNode_Mode0(target){
    //Handle Fractions
    if (target.tagName && target.tagName.toLowerCase() == "mfrac"){
       var depth = CLC_MathML_FindFractionDepth(target);
-      CLC_MathML_AddMsg(depth, CLC_MathML_Begin_Msg);
-      CLC_MathML_AddMsg(1, CLC_MathML_Fraction_Msg);
+
+      if(CLC_MathML_Mode === 0) {
+         CLC_MathML_AddMsg(depth, CLC_MathML_Begin_Msg);
+         CLC_MathML_AddMsg(1, CLC_MathML_Fraction_Msg);
+      }
+      if(CLC_MathML_Mode === 1) {
+         CLC_MathML_AddMsg(depth - 1, CLC_MathML_Braille_Complexity_Msg);
+         CLC_MathML_AddMsg(1, CLC_MathML_Braille_Begin_Fraction_Msg);
+      }
       var i = 0;
       while(target.childNodes[i].nodeType != 1){
          i++;
@@ -129,7 +137,13 @@ function CLC_MathML_ProcessMathNode_Mode0(target){
       if (CLC_IsSpeakableString(target.childNodes[i].textContent)){
          CLC_MathML_ProcessMathNode_Mode0(target.childNodes[i]);
          }
-      CLC_MathML_AddMsg(depth, CLC_MathML_Over_Msg);
+      if(CLC_MathML_Mode === 0) {
+         CLC_MathML_AddMsg(depth, CLC_MathML_Over_Msg);
+      }
+      if(CLC_MathML_Mode === 1) {
+         CLC_MathML_AddMsg(depth - 1, CLC_MathML_Braille_Complexity_Msg);
+         CLC_MathML_AddMsg(1, CLC_MathML_Braille_Over_Msg);
+      }
       i++;
       while(target.childNodes[i].nodeType != 1){
          i++;
@@ -137,23 +151,41 @@ function CLC_MathML_ProcessMathNode_Mode0(target){
       if (CLC_IsSpeakableString(target.childNodes[i].textContent)){
          CLC_MathML_ProcessMathNode_Mode0(target.childNodes[i]);
          }
-      CLC_MathML_AddMsg(depth, CLC_MathML_End_Msg);
-      CLC_MathML_AddMsg(1, CLC_MathML_Fraction_Msg);
-      return;
+      if(CLC_MathML_Mode === 0) {
+         CLC_MathML_AddMsg(depth, CLC_MathML_End_Msg);
+         CLC_MathML_AddMsg(1, CLC_MathML_Fraction_Msg);
       }
+      if(CLC_MathML_Mode === 1) {
+         CLC_MathML_AddMsg(depth - 1, CLC_MathML_Braille_Complexity_Msg);
+         CLC_MathML_AddMsg(1, CLC_MathML_Braille_End_Fraction_Msg);
+      }
+      return;
+   }
 
    //Handle Radicals
    if (target.tagName && target.tagName.toLowerCase() == "msqrt"){
       var depth = CLC_MathML_FindRadicalDepth(target);
-      CLC_MathML_AddMsg(depth, CLC_MathML_Begin_Msg);
-      CLC_MathML_AddMsg(1, CLC_MathML_Radical_Msg);
+      if(CLC_MathML_Mode === 0) {
+         CLC_MathML_AddMsg(depth, CLC_MathML_Begin_Msg);
+         CLC_MathML_AddMsg(1, CLC_MathML_Radical_Msg);
+      }
+      if(CLC_MathML_Mode === 1) {
+         CLC_MathML_AddMsg(depth - 1, CLC_MathML_Braille_Complexity_Msg);
+         CLC_MathML_AddMsg(1, CLC_MathML_Braille_Begin_Radical_Msg);
+      }
       for (var i = 0; i < target.childNodes.length; i++){
          if (CLC_IsSpeakableString(target.childNodes[i].textContent)){
             CLC_MathML_ProcessMathNode_Mode0(target.childNodes[i]);
             }
           }
-      CLC_MathML_AddMsg(depth, CLC_MathML_End_Msg);
-      CLC_MathML_AddMsg(1, CLC_MathML_Radical_Msg);
+      if(CLC_MathML_Mode === 0) {
+         CLC_MathML_AddMsg(depth, CLC_MathML_End_Msg);
+         CLC_MathML_AddMsg(1, CLC_MathML_Radical_Msg);
+      }
+      if(CLC_MathML_Mode === 1) {
+         CLC_MathML_AddMsg(depth - 1, CLC_MathML_Braille_Complexity_Msg);
+         CLC_MathML_AddMsg(1, CLC_MathML_Braille_End_Radical_Msg);
+      }
       return;
       }
 

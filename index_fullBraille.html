@@ -141,7 +141,7 @@ function transMathToText(source, target)
 	
 	var $target = document.getElementById(target);
 	
-	if($target) $target.innerHTML=CLC_GetMathMLContent(document.getElementById(source).children[0]);
+	if($target) $target.innerHTML=CLC_GetMathMLContent(document.getElementById(source).children[0]).replace("−", "-");
 	
 	$('#' + source).attr('aria-labelledby', target).attr('tabindex', '0');
 }
@@ -206,7 +206,6 @@ $(document).ready(function()
 
   note: you cannot have display="block" in the MathML code or the VoiceOver implementation will fail -->
 
-<!--
 <h3>Equation:</h3>
 <div id="mathml-result-2" tabindex="0" class="hide translation">MathML translation to string</div>
 <div id="mathml-result-2-braille" tabindex="0" class="braille hide translation braille-trans">MathML translation to string</div><br><br>
@@ -231,9 +230,8 @@ $(document).ready(function()
   </mrow>
 </math></div>
 <br>
--->
 
-<!--
+
 <h3>Equation:</h3>
 <div id="mathml-result-3" tabindex="0" class="hide translation">MathML translation to string</div>
 <div id="mathml-result-3-braille" tabindex="0" class="braille hide translation braille-trans">MathML translation to string</div><br><br>
@@ -251,7 +249,7 @@ $(document).ready(function()
     </mrow>
 </math></div>
 <br>
- -->
+
 
 <h3>Equation:</h3>
 <div id="mathml-result-4" tabindex="0" class="hide translation">MathML translation to string</div>
@@ -267,7 +265,6 @@ $(document).ready(function()
 </math></div>
 <br>
 
-<!--
 <h3>Equation:</h3>
 <div id="mathml-result-5" tabindex="0" class="hide translation">MathML translation to string</div>
 <div id="mathml-result-5-braille" tabindex="0" class="braille hide translation braille-trans">MathML translation to string</div><br>
@@ -287,7 +284,7 @@ $(document).ready(function()
 </math>
 </div>
 <br>
--->
+
 
 <h3>Equation:</h3>
 <div id="mathml-result-6" tabindex="0" class="hide translation">MathML translation to string</div>
@@ -304,7 +301,6 @@ $(document).ready(function()
 </div>
 <br>
 
-<!--
 <h3>Equation:</h3>
 <div id="mathml-result-7" tabindex="0" class="hide translation">MathML translation to string</div>
 <div id="mathml-result-7-braille" tabindex="0" class="braille hide translation braille-trans">MathML translation to string</div><br>
@@ -328,7 +324,6 @@ $(document).ready(function()
 </mfrac>
 </math>
 </div>
--->
 
 
 
