@@ -112,110 +112,12 @@ function transMathToText(source, target)
 
 <body>
 
-<div id="mathml-container" class="test-button"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mrow><msub><mo>∫</mo><mrow><mi>D</mi></mrow></msub><mrow><mo>(</mo><mo>∇⋅</mo><mi>F</mi><mo>)</mo></mrow><mi>d</mi><mrow><mi>V</mi></mrow></mrow><mo>=</mo><mrow><msub><mo>∫</mo><mrow><mo>∂</mo><mi>D</mi></mrow></msub><mrow><mi>F</mi><mo>⋅</mo><mi>n</mi></mrow><mi>d</mi><mi>S</mi></mrow></mrow></math></div>
-<br>
+    <h1>MathML Nemeth Translations</h1>
 
-<div id="mathml-container-2" class="test-button"><math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mrow>
-    <mi>f</mi>
-    <mrow>
-      <mo>(</mo>
-      <mi>a</mi>
-      <mo>)</mo>
-    </mrow>
-    <mo>=</mo>
-    <msub>
-      <mo>&#x222E;</mo>
-      <mrow>
-        <mi>&#x3B3;</mi>
-      </mrow>
-    </msub>
-    <mfrac>
-      <mrow>
-        <mi>f</mi>
-        <mo>(</mo>
-        <mi>z</mi>
-        <mo>)</mo>
-      </mrow>
-      <mrow>
-        <mi>z</mi>
-        <mo>&#x2212;</mo>
-        <mi>a</mi>
-      </mrow>
-    </mfrac>
-    <mi>d</mi>
-    <mi>z</mi>
-  </mrow>
-</math></div>
+    <h2><a href="./index_ChemistryVerbal.html">See/Hear the MathSpeak translation demo</a></h2>
 
-<br>
+    <h2><a href="./index_fullBraille.html">See/Feel the Nemeth Braille translation demo</a></h2>
 
-
-
-<!-- note: you cannot have display="block" in the MathML code or the VoiceOver implementation will fail -->
-<div id="mathml-container-3" class="test-button"><math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mi>x</mi> <mo>=</mo>
-  <mrow>
-    <mfrac>
-      <mrow>
-        <mo>&#x2212;</mo>
-        <mi>b</mi>
-        <mo>&#x00B1;</mo>
-        <msqrt>
-          <msup><mi>b</mi><mn>2</mn></msup>
-          <mo>&#x2212;</mo>
-          <mn>4</mn><mi>a</mi><mi>c</mi>
-        </msqrt>
-      </mrow>
-      <mrow> <mn>2</mn><mi>a</mi> </mrow>
-    </mfrac>
-  </mrow>
-  <mtext>.</mtext>
-</math></div>
-<br>
-
-<div id="mathml-container-4" class="test-button"><math xmlns="http://www.w3.org/1998/Math/MathML">
-    <mrow>
-    <mo>&#x2212;</mo>
-    <mi>b</mi>
-    <mo>&#x00B1;</mo>
-        <msqrt>
-            <msup><mi>b</mi><mn>2</mn></msup>
-            <mo>&#x2212;</mo>
-            <mn>4</mn><mi>a</mi><mi>c</mi>
-        </msqrt>
-    </mrow>
-</math></div>
-<br>
-
-
-
-
-<div id="mathml-container-5" class="test-button" tabindex="0"><math xmlns="http://www.w3.org/1998/Math/MathML">
-    <msup><mi>a</mi><mn>2</mn></msup>
-    <mo>+</mo>
-    <msup><mi>b</mi><mn>2</mn></msup>
-    <mo>=</mo>
-    <msup><mi>c</mi><mn>2</mn></msup>
-</math></div>
-<br>
-
-
-<input type="button" value="Apply Access-Math Screen Reader translation - Nemeth Format" onClick="transMathToText('mathml-container', 'mathml-result'); ">
-<div id="fraction" tabindex="0">Begin Fraction f. L pare z. R pare Over z. minus a. End Fraction</div>
-<div id="mathml-result" tabindex="0">MathML translation to string</div>
-<div id="mathml-result-2" tabindex="0">MathML translation to string</div>
-<div id="mathml-result-3" tabindex="0">MathML translation to string</div>
-<div id="mathml-result-4" tabindex="0">MathML translation to string</div>
-<div id="mathml-result-5" tabindex="0">MathML translation to string</div>
-
-<input type="button" onClick="applyFocusTags('mathml-result');">
-<input type="button" value="Show mrow borders" onClick="layerMathML();">
-
-<div id="mathml-data-resource"></div>
-
-
-<script type="text/javascript" src="wireframe-template-script.js"></script>
 </body>
 </html>
 
