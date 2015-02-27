@@ -9,6 +9,18 @@
 
 <link href="wireframe-stylesheet.css" rel="stylesheet" type="text/css" />
 <style>
+
+div.translation {
+	margin-top: 5px !important;
+	margin-bottom:5px !important;
+	
+}
+
+div.hide{
+	display:inline-block;
+	margin-left:-1500px;
+}
+
 span span span.focused {
 	background-color: #C0E2FF;
     border: 2px dotted Orange;
@@ -46,10 +58,6 @@ $(document).ready(function()
 {
 	// var mathmlElements = $(document).getElementsByTagName("math");
     CLC_MathML_Mode = 1;
-    transMathToText("mathml-container", "mathml-result");
-	transMathToText("mathml-container-2", "mathml-result-2");
-	transMathToText("mathml-container-3", "mathml-result-3");
-	transMathToText("mathml-container-4", "mathml-result-4");
 	transMathToText("mathml-container-5", "mathml-result-5");
 });
 
@@ -102,6 +110,24 @@ function transMathToText(source, target)
 }
 
 
+$(document).ready(function()
+{
+	$('#hide').click(function()
+	{
+		$('.show')
+			.addClass('hide')
+			.removeClass('show');
+	});
+	
+	$('#show').click(function()
+	{
+		$('.hide')
+			.removeClass('hide')
+			.addClass('show');
+	});
+	
+});
+
 
 </script>
 
@@ -112,12 +138,36 @@ function transMathToText(source, target)
 
 <body>
 
-    <h1>MathML Nemeth Translations</h1>
 
-    <h2><a href="./index_ChemistryVerbal.html">See/Hear the MathSpeak translation demo</a></h2>
 
-    <h2><a href="./index_fullBraille.html">See/Feel the Nemeth Braille translation demo</a></h2>
 
+
+
+<div id="mathml-container-5" class="test-button" tabindex="0"><math xmlns="http://www.w3.org/1998/Math/MathML">
+    <msup><mi>a</mi><mn>2</mn></msup>
+    <mo>+</mo>
+    <msup><mi>b</mi><mn>2</mn></msup>
+    <mo>=</mo>
+    <msup><mi>c</mi><mn>2</mn></msup>
+</math></div>
+<br>
+
+<input id="show" type="button" value="Show">
+<input id="hide" type="button" value="Hide">
+<input type="button" value="Apply Access-Math Screen Reader translation - Nemeth Format" onClick="transMathToText('mathml-container', 'mathml-result'); " style="display:none;">
+<div id="fraction" tabindex="0" style="display:none;">Begin Fraction f. L pare z. R pare Over z. minus a. End Fraction</div>
+
+<div id="mathml-result-5" tabindex="0" class="hide translation">MathML translation to string</div>
+
+<input type="button" onClick="applyFocusTags('mathml-result');" style="display:none;">
+<input type="button" value="Show mrow borders" onClick="layerMathML();" style="display:none;">
+
+
+
+<div id="mathml-data-resource"></div>
+
+
+<script type="text/javascript" src="wireframe-template-script.js"></script>
 </body>
 </html>
 

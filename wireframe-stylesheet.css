@@ -93,3 +93,17 @@ input.catch {
 	padding-right: 2px;
 	
 }
+
+@font-face {
+    font-family: 'ghubrailleregular';
+    src: url('ghUBraille-webfont.eot');
+    src: url('ghUBraille-webfont.eot?#iefix') format('embedded-opentype'),
+         url('ghUBraille-webfont.woff2') format('woff2'),
+         url('ghUBraille-webfont.woff') format('woff'),
+         url('ghUBraille-webfont.ttf') format('truetype'),
+         url('ghUBraille-webfont.svg#ghubrailleregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
