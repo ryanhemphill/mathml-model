@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+
+<link href="wireframe-stylesheet.css" rel="stylesheet" type="text/css" />
+<style>
+
+div.translation {
+	margin-top: 5px !important;
+	margin-bottom:5px !important;
+	
+}
+
+div.hide{
+	display:inline-block;
+	margin-left:-1500px;
+}
+
+span span span.focused {
+	background-color: #C0E2FF;
+    border: 2px dotted Orange;
+    padding: 6px 3px 0 0;	
+}
+
+.test-button {
+	padding:20px;
+	vertical-align:middle;
+}
+
+.button-container {
+	width:375px;
+	text-align:center;	
+}
+</style>
+
+
+
+<!-- jQuery libraries and plugins -->
+<script type="text/javascript" src="javascript/jquery/jquery.js"></script>
+<script type="text/javascript" src="javascript/jquery.hotkeys.js"></script>
+<script type="text/javascript" src="javascript/jquerymx/jquery.lang.js"></script>
+<script type="text/javascript" src="javascript/jquerymx/jquery.class.js"></script>
+<!-- mathml code -->
+<script type='text/javascript' src="firevox-scripts/clc_text.js"></script>
+<script type='text/javascript' src="mathjax/MathJax.js?config=MML_HTMLorMML-full"></script>
+<script type='text/javascript' src="firevox-scripts/clc_mathml_char_lookup.js"></script>
+<script type='text/javascript' src="firevox-scripts/clc_mathml_main.js"></script>
+
+<script type="text/javascript">
+
+
+$(document).ready(function()
+{
+	// var mathmlElements = $(document).getElementsByTagName("math");
+    CLC_MathML_Mode = 1;
+	transMathToText("mathml-container-5", "mathml-result-5");
+});
+
+
+
+function layerMathML()
+{
+	var layerTags = $(".mrow, .mfrac, .msqrt, .mroot, .mstyle, .merror, .mpadded, .mphantom, .mfenced, .menclose, .msub,  .msup, .msubsup, .munder, .mover, .munderover, .mmultiscripts, .mtable, .mlabeledtr, .mtr, .mtd, .maction, .math");
+	layerTags
+		//.css('margin', '3px')
+		//.css('border', '1px solid gray')
+		.attr('tabindex', '0')
+		.focus(function()
+		{
+			layerTags.removeClass('focused');
+			$(this).addClass('focused');
+		});
+	
+	
+}
+
+
+
+
+
+function applyFocusTags(stringForId)
+{
+	var mathStringContents = $('#' + stringForId).text();
+	mathStringContents.text(function(index)
+	{
+		return
+	});
+}
+
+$('ul li').text(function(index) {
+  return 'item number ' + (index + 1);
+});
+
+
+function transMathToText(source, target)
+{
+	//var altSource = document.getElementById(target).innerHTML;
+	//var altTarget = $('mathml-result');
+	//var origSource = document.getElementById(source).children[0];
+	
+	document.getElementById(target)
+		.innerHTML=CLC_GetMathMLContent(document.getElementById(source).children[0]);
+	
+	$('#' + source).attr('aria-labelledby', target).attr('tabindex', '0');
+}
+
+
+$(document).ready(function()
+{
+	$('#hide').click(function()
+	{
+		$('.show')
+			.addClass('hide')
+			.removeClass('show');
+	});
+	
+	$('#show').click(function()
+	{
+		$('.hide')
+			.removeClass('hide')
+			.addClass('show');
+	});
+	
+});
+
+
+</script>
+
+
+
+
+</head>
+
+<body>
+
+
+
+
+
+
+<div id="mathml-container-5" class="test-button" tabindex="0"><math xmlns="http://www.w3.org/1998/Math/MathML">
+    <msup><mi>a</mi><mn>2</mn></msup>
+    <mo>+</mo>
+    <msup><mi>b</mi><mn>2</mn></msup>
+    <mo>=</mo>
+    <msup><mi>c</mi><mn>2</mn></msup>
+</math></div>
+<br>
+
+<input id="show" type="button" value="Show">
+<input id="hide" type="button" value="Hide">
+<input type="button" value="Apply Access-Math Screen Reader translation - Nemeth Format" onClick="transMathToText('mathml-container', 'mathml-result'); " style="display:none;">
+<div id="fraction" tabindex="0" style="display:none;">Begin Fraction f. L pare z. R pare Over z. minus a. End Fraction</div>
+
+<div id="mathml-result-5" tabindex="0" class="hide translation">MathML translation to string</div>
+
+<input type="button" onClick="applyFocusTags('mathml-result');" style="display:none;">
+<input type="button" value="Show mrow borders" onClick="layerMathML();" style="display:none;">
+
+
+
+<div id="mathml-data-resource"></div>
+
+
+<script type="text/javascript" src="wireframe-template-script.js"></script>
+</body>
+</html>
+
+<!--
+$("mrow, mfrac, msqrt, mroot, mstyle, merror, mpadded, mphantom, mfenced, menclose, msub,  msup, msubsup, munder, mover, munderover, mmultiscripts, mtable, mlabeledtr, mtr, mtd, maction, math");
+-->
